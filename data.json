@@ -1,0 +1,78 @@
+{
+  "mrutyunjaya": [
+    {
+      "event": "e1",
+      "event_name": "paridhanam",
+      "alias_name": "Fashion Show",
+      "rules": [
+        "One team per department",
+        "Number of participants: 12 models + 2 helpers + 1 narrator",
+        "Duration: 12 to 15 minutes",
+        "Additional setup time will not be provided",
+        "Themes: Round 1 - Tirodhana (illusion) Round 2 - open",
+        "Both Rounds are compulsory",
+        "..."
+      ],
+      "coordinators": [
+        { "Name": "Rohan", "Contact": "1234567890" },
+        { "Name": "Coordinator Name", "Contact": "1234567890" }
+      ]
+    },
+    {
+      "event": "e2",
+      "event_name": "ardhanarishvara",
+      "alias_name": "Mr. and Ms. Engico",
+      "rules": [
+        "One team per department",
+        "Number of participants: 12 models + 2 helpers + 1 narrator",
+        "Duration: 12 to 15 minutes",
+        "Additional setup time will not be provided",
+        "Themes: Round 1 - Tirodhana (illusion) Round 2 - open",
+        "Both Rounds are compulsory",
+        "..."
+      ],
+      "coordinators": [
+        { "Name": "Coordinator Name", "Contact": "9090909090" },
+        { "Name": "Coordinator Name", "Contact": "9090909090" }
+      ]
+    }
+  ],
+  "tripurantaka": [
+    {
+      "event": "e3",
+      "event_name": "ananda tandava",
+      "alias_name": "Mr & Ms Enginco",
+      "rules": [
+        "One team per department",
+        "One male and one female participant per team.",
+        "Duration: 12 to 15 minutes",
+        "Additional setup time will not be provided",
+        "Themes: Round 1 - Tirodhana (illusion) Round 2 - open",
+        "Both Rounds are compulsory",
+        "..."
+      ],
+      "coordinators": [
+        { "Name": "Rohan", "Contact": "1234567890" },
+        { "Name": "Coordinator Name", "Contact": "1234567890" }
+      ]
+    },
+    {
+      "event": "e4",
+      "event_name": "path yuddha",
+      "alias_name": "Street Play",
+      "rules": [
+        "One team per department",
+        "Number of participants: 12 models + 2 helpers + 1 narrator",
+        "Duration: 8 to 10 minutes",
+        "Additional setup time will not be provided",
+        "Themes: Round 1 - Tirodhana (illusion) Round 2 - open",
+        "Both Rounds are compulsory",
+        "..."
+      ],
+      "coordinators": [
+        { "Name": "Coordinator Name", "Contact": "9090909090" },
+        { "Name": "Coordinator Name", "Contact": "9090909090" }
+      ]
+    }
+  ]
+}

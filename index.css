@@ -1,0 +1,123 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.btn {
+  padding: 12px;
+  border: 0;
+  cursor: pointer;
+}
+.btn:focus {
+  outline: none;
+}
+
+.btn:active {
+  transform: scale(0.98);
+}
+
+.btn-primary {
+  background: #0080ff;
+  color: #fff;
+}
+
+.category {
+  margin-bottom: 1rem;
+}
+
+/* card part ============================== */
+.cards-container {
+  display: flex;
+  gap: 2rem;
+  justify-content: space-around;
+}
+
+.card {
+  max-width: 100%;
+  width: 300px;
+  background-color: #c5c5c5;
+  padding: 1rem;
+}
+
+.card .card-content {
+  margin: 10px 0;
+}
+
+.card p {
+  color: #4362d1;
+  font-size: 14px;
+}
+
+.card p.coordinators {
+  color: initial;
+  font-weight: bold;
+  margin-top: 10px;
+}
+
+@media screen and (max-width: 500px) {
+  body {
+    justify-content: flex-start;
+  }
+
+  .cards-container {
+    flex-direction: column;
+  }
+}
+
+/* modal part ============================ */
+.modal-container {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.6);
+  display: none;
+  justify-content: center;
+  align-items: center;
+}
+
+.modal-container.show {
+  display: flex;
+}
+
+.modal-container.show .modal {
+  animation: topToBottom 0.5s ease-in-out 1;
+}
+
+.modal-container .modal {
+  max-width: 850px;
+  margin: auto;
+  background: #fff;
+  position: relative;
+}
+
+.modal-container .modal p {
+  padding: 20px;
+  line-height: 1.8;
+  font-size: 1rem;
+}
+
+.modal-container .modal .close {
+  cursor: pointer;
+}
+
+@keyframes topToBottom {
+  from {
+    transform: translateY(-200px);
+  }
+  to {
+    transform: translateY(0px);
+  }
+}
